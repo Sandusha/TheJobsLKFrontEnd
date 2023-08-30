@@ -1,0 +1,38 @@
+#formArea{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+#form{
+padding: 10%;
+     
+}
+#mainHeading{
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 190%;
+    padding-top: 7%;
+}
+
+#DontHaveAccount{
+    display:block;
+    margin-top: 15px;
+    padding-left: 10%;
+    padding-bottom: 0%;
+
+}
+
+#formtext{
+
+    color: aliceblue;
+}
+#forgetPassword{
+    display: block;
+    margin-top: 20px;
+}
+body{ background-color:#212529;
+
+    
+}
