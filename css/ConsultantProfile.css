@@ -1,0 +1,66 @@
+#mainHeading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+#profileDeatils{
+    width: 50%;
+   margin: auto;
+   text-align: center;
+   margin-top: 20px;
+}
+p{
+    color: aliceblue;
+
+}
+body
+{ background-color:#212529;
+
+    
+}
+
+#consultantDetails {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  label {
+    display: flexbox;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a049;
+  }

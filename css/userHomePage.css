@@ -1,0 +1,61 @@
+#mainHeading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+
+
+#cardArea{
+    gap: 9vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1vh;
+    margin-top: 6vh;
+    margin-left: 10vh;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.bookAppointment{
+
+    margin-top: 10px;
+}
+
+body
+{ background-color:#212529;
+
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54vh;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 18rem;
+    border: 1px solid #908f8f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(74, 74, 74, 0.1);
+    background:   #ced0d0  ;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }

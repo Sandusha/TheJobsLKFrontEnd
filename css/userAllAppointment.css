@@ -1,0 +1,61 @@
+.mainHeading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+}
+
+#AllAppointmentArea {
+    gap: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 13px;
+    margin-top: 7%;
+    margin-left: 13%;
+}
+body
+{ background-color:#212529;
+
+    
+}
+
+
+#appointmentFilter{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.deleteAppointmentButton{
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51vh;
+    padding: 20px;
+    padding-bottom: 18px;
+  }
+  
+  .card {
+    width: 100%;
+    border: 1px solid #908f8f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(74, 74, 74, 0.1);
+    background:   #ced0d0  ;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }

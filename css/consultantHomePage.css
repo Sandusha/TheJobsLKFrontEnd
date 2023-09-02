@@ -1,0 +1,44 @@
+.mainHeading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+#AllAppointmentArea {
+    gap: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 113px;
+    margin-top: 7%;
+    margin-left: 17%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding: 20px;
+  }
+  
+
+.card-body{
+
+    border: 1px solid #908f8f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(74, 74, 74, 0.1);
+    background:   #ced0d0  ;
+  }
+
+
+#appointmentFilter {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+body
+{ background-color:#212529;
+
+    
+}

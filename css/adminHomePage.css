@@ -1,0 +1,61 @@
+#mainHeading {
+    text-align: center;
+    margin-bottom:0%;
+    padding: 2%;
+    color: aliceblue;
+
+}
+
+#formArea {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 26px;
+    padding: 0%;
+}
+
+
+#formtext{
+
+    color: aliceblue;
+}
+body
+{ background-color:#212529;
+
+    
+}
+.modern-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  border: none;
+  margin-top: 15px; /* Add some spacing below form controls */
+  width: 100%; /* Make button take full width */
+  max-width: 200px; 
+  }
+  .button-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 15px; /* Add some spacing */
+    width: 100%;
+  }
