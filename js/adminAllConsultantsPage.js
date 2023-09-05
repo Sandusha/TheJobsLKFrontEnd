@@ -96,7 +96,7 @@ let givePermissionOrRevokPermission = async (consultantData) => {
     if (confirmation == true) {
       const url = `http://localhost:8085/api/v2/grantPermission?key=${uuid}`;
       let data = await fetch(url, {
-        method: "POST",
+        method: "PUT",
 
         headers: {
           "Content-Type": "application/json",
@@ -120,7 +120,7 @@ let givePermissionOrRevokPermission = async (consultantData) => {
     if (confirmation == true) {
       const url = `http://localhost:8085/api/v2/revokePermission?key=${uuid}`;
       let data = await fetch(url, {
-        method: "DELETE",
+        method: "PUT",
 
         headers: {
           "Content-Type": "application/json",
